@@ -1,6 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+  font-family: "Exo 2", Ubuntu, Aptos, "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Oxygen, Cantarell, sans-serif, "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+}
  
 @layer base {
   :root {
